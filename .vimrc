@@ -18,3 +18,4 @@ set columns=160
 map <leader>f :FufFile **/<CR>
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
+imap <D-space> <Esc>
