@@ -1,7 +1,7 @@
 let mapleader=","
 set guifont=Monaco:h14
 set number
-colorscheme darkspectrum
+colorscheme vividchalk
 syntax on
 set ic 
 set incsearch 
@@ -13,9 +13,8 @@ set smartindent
 set tabstop=2
 set shiftwidth=2
 set expandtab
-set lines=45
-set columns=160
 map <leader>f :FufFile **/<CR>
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 imap <D-space> <Esc>
+filetype plugin on
