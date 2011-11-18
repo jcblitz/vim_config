@@ -2,7 +2,9 @@ let mapleader=","
 set guifont=Monaco:h14
 set number
 colorscheme vividchalk
-syntax on
+set background=dark
+"colorscheme solarized 
+syntax enable
 set ic 
 set incsearch 
 set hlsearch 
